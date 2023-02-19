@@ -4,13 +4,13 @@ dotenv.config();
 import { createErrorContainer } from './errorContainer.js';
 import { createSpinner } from './spinner.js';
 
-export const ALCHEMY_API_KEY = UVP4Hy78DWaOdNYtzBbnBpnN3Sc_L9XU;
+export const ALCHEMY_API_KEY = "UVP4Hy78DWaOdNYtzBbnBpnN3Sc_L9XU";
 
 if (!ALCHEMY_API_KEY) {
   throw new Error('ALCHEMY_API_KEY is required!');
 }
 
-export const CONTRACT_ADDRESS = 0x68Bd8b7C45633de6d7AFD0B1F7B86b37B8a3C02A;
+export const CONTRACT_ADDRESS = "0x68Bd8b7C45633de6d7AFD0B1F7B86b37B8a3C02A";
 
 if (!CONTRACT_ADDRESS) {
   throw new Error(`${CONTRACT_ADDRESS} must be defined!`);
